@@ -27,7 +27,7 @@ ADMINS = [
     for admin in environ.get("ADMINS", "7765324902").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "owner_of_sk"
+    "OWNER_USERNAME", "@owner_of_sk"
 )  # without @ or https://t.me/
 USERNAME = environ.get("USERNAME", "https://t.me/owner_of_sk")  # ADMIN USERNAME
 
@@ -147,9 +147,9 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 # Other Funtions
 FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "600"))
 AUTO_FILTER = is_enabled("AUTO_FILTER", True)
-IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", False)
+IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", True)
 IS_SEND_MOVIE_UPDATE = is_enabled(
-    "IS_SEND_MOVIE_UPDATE", False
+    "IS_SEND_MOVIE_UPDATE", True
 )  # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 MAX_BTN = int(environ.get("MAX_BTN", "8"))
 AUTO_DELETE = is_enabled("AUTO_DELETE", True)
