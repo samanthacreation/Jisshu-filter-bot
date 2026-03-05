@@ -39,7 +39,7 @@ CHANNELS = [
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002398970429"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1003692547948"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1003678355981"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003744742911"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1003744742911"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1003744742911"))
@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://vinod974323_db_use
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Skbro")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003692547948"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1001579291485"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1003407457309")
 REQUEST_CHANNEL = (
