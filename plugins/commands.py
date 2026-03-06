@@ -174,7 +174,7 @@ async def start(client: Client, message):
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         m = await message.reply_sticker(
-            "CAACAgUAAx0CZz_GMwACMBdnXZA4SejgJ6a_0TrNzOfn9ImI_QACNwsAArT4iFVaZPJf8ldVVh4E"
+            "CAACAgUAAxkBAAEWEJNpqpEQgUSpByg-PY1ztKj3ilNA2AAClBQAAnd78FarNaCMQa2iyx4E"
         )
         await asyncio.sleep(1)
         await m.delete()
@@ -1547,3 +1547,4 @@ async def reset_group_command(client, message):
     reply_markup = InlineKeyboardMarkup(btn)
     await save_default_settings(grp_id)
     await message.reply_text("ꜱᴜᴄᴄᴇꜱꜱғᴜʟʟʏ ʀᴇꜱᴇᴛ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ...")
+
