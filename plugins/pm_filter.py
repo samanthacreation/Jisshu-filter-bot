@@ -1556,7 +1556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/{OWNER_USERNAME}"
+                    "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/SkHelpq_bot"
                 )
             ],
             [InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")],
