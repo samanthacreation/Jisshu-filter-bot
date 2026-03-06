@@ -77,15 +77,15 @@ VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://i.ibb.co/Wv9jBjD5/photo-2026-03-06-09-05-32-7614066302352621596.jpg"
 )
 SHORTENER_API = environ.get("SHORTENER_API", "d200e6d92af0bf242b9d25fce8c9b7023bb7720e")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", " linkshortify.com")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
 SHORTENER_API2 = environ.get(
     "SHORTENER_API2", "d200e6d92af0bf242b9d25fce8c9b7023bb7720e"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", " linkshortify.com")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
 SHORTENER_API3 = environ.get(
     "SHORTENER_API3", "d200e6d92af0bf242b9d25fce8c9b7023bb7720e"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", " linkshortify.com")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
 THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
 
