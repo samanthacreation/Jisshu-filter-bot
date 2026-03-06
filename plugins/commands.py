@@ -1253,7 +1253,7 @@ async def all_settings(client, message):
 
 🎯 ɪᴍᴅʙ ᴛᴇᴍᴘʟᴀᴛᴇ - `{settings['template']}`
 
-📂 ꜰɪʟᴇ ᴄᴀᴘᴛɪᴏɴ - `{settings['caption']}`</b>"""
+📂 ꜰɪʟᴇ ᴄᴀᴘᴛɪᴏɴ - `{settings['𝖩𝗈𝗂𝗇 ➥ 「 @SK_MOVIESx 」']}`</b>"""
 
     btn = [
         [InlineKeyboardButton("ʀᴇꜱᴇᴛ ᴅᴀᴛᴀ", callback_data="reset_grp_data")],
@@ -1547,4 +1547,5 @@ async def reset_group_command(client, message):
     reply_markup = InlineKeyboardMarkup(btn)
     await save_default_settings(grp_id)
     await message.reply_text("ꜱᴜᴄᴄᴇꜱꜱғᴜʟʟʏ ʀᴇꜱᴇᴛ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ...")
+
 
