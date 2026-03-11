@@ -117,7 +117,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><a href="https://t.me/SK_MOVIESx">{file_name}</a></b>\n\n<b>⚜️ Powered By :<a https://t.me/SK_MOVIESx>[SK_MOVIESZ]</a></b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/SK_MOVIESx">{file_name}</a></b>\n\n<b>⚜️ Powered By :<a https://t.me/SK_MOVIESx>[@SK_MOVIESx]</a></b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
@@ -445,6 +445,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://telegram.dog/SkHelpq_bot">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://telegram.dog/SkHelpq_bot">Z I Ƨ Ή Λ П ♡</a></b>"""
+
 
 
 
