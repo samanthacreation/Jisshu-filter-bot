@@ -304,7 +304,7 @@ async def Jisshu_qualities(text, file_name):
     for quality in qualities:
         if "HEVC" not in quality and quality.lower() in combined_text:
             return quality
-    return 
+    return "720p"
 
 
 async def movie_name_format(file_name):
